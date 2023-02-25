@@ -1,0 +1,232 @@
+
+/*---------------------------Formatações gerais-----------------------*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background: #f6f6f6;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+body.home #menu-principal a#home,
+body.blog #menu-principal a#blog,
+body.contato #menu-principal a#contato,
+body.produtos #menu-principal a#produtos{
+	color: #00255d;
+	background: lightgray;
+	cursor: text;
+}
+.center-h1{
+	text-align: center;
+}
+
+
+/*-------------------------------Fim Formatações gerais-----------------------*/
+
+
+/*---------------------------TARJA SUPERIOR-----------------------------*/
+#tarja-superior{
+	background: #fff;
+	color: gray;
+	padding-left: 223px;
+	height: 55px;
+	line-height: 55px;
+	margin: 0px;
+	font-size: 0.9em;
+	overflow: hidden;
+}
+.ícone{
+	float: left;
+	width: 30px;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+/*---------------------------FIM TARJA SUPERIOR-----------------------------*/
+
+
+/*--------------------------------MENU PRINCIPAL-----------------------------*/
+#container-menu{
+	width: 750px;
+	margin: 0px auto;
+	
+}
+
+#menu-principal {
+	background-color: #00255d;
+	height: 120px;
+
+}
+.logo{
+	width: 100px;
+	height: 100px;
+	background: url(../imagens/logo.png)no-repeat center;
+	text-indent: -3000px; /*Para acessibilidade*/
+	padding-top: 10px;
+	float: left;
+}
+
+#menu-principal ul{
+	float: left;
+	background: #727cff;
+	margin: 60px 0px 0px 150px;
+
+}
+
+#menu-principal ul li{
+	float: left;
+}
+
+#menu-principal ul a{
+	font-size: 1em;
+	display: block;
+	padding: 0.5em 1.9em;
+	text-decoration: none;
+	background: url(../imagens/divisor.png)no-repeat left center;
+	color: #fff;
+}
+
+#menu-principal ul .primeiro a{
+	background: none;
+}
+
+
+
+/*--------------------------------FIM MENU PRINCIPAL---------------------*/
+
+
+/*--------------------------------BANNER PRINCIPAL-----------------------------*/
+#banner-principal{
+	width: 100%;
+	height: 320px;
+	background: url(../imagens/banner.png)no-repeat center;
+	margin-top:2px ;
+	background-color: gray;
+}
+/*-------------------------------- FIM BANNER PRINCIPAL-----------------------------*/
+
+/*-----------------------------------ÁREA DE CONTEÚDO-----------------------------*/
+#container-conteudo{
+	width:1250px;
+	margin: 5px auto;
+	background: lightgray;
+
+
+}
+/*_____Produtos_____*/
+#produtos-conteudo{
+float: left;
+margin-bottom: 10px;
+
+
+}
+#produtos-conteudo img{
+	padding-left: 10px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+#produtos-conteudo h1{
+	color: #0AF31A;
+}
+
+
+#produto-1{
+float: left;
+width: 400px;
+margin: 0 12.5px;
+background-color: lightgray;
+margin-top: 5px;
+height: 500px;
+}
+#produto-2{
+	float: left;
+	width: 400px;
+	margin-right: 12.5px;
+	background-color: lightgray;
+	margin-top: 5px;
+	height: 500px;
+}
+#produto-3{
+	float: left;
+	width: 400px;
+	margin-right: 12.5px;
+	background-color: lightgray;
+	margin-top: 5px;
+	height: 500px;
+}
+
+
+/*-------------------------------- FIM ÁREA DE CONTEÚDO-----------------------------*/
+
+/*-------------------------------- RODAPÉ-----------------------------*/
+#rodape{
+	clear: both;
+	background-color:#00255d;
+	height: 100px;
+	margin-top: 10px;
+	text-align: center;
+	padding-top: 60px;
+	color: #fff;
+	bottom: 0;
+	position: relative;
+	width: 100%;
+}
+/*-------------------------------- FIM RODAPÉ-----------------------------*/
+
+/*------------------------------BLOG--------------------------*/
+#container-blog{
+	width: 720px;
+	margin: 1px auto;
+}
+#container-blog div{
+	border: 1px solid lightgray;
+	margin: 10px;
+}
+
+#produtos-seção .produtos{
+float: left;
+width: 400px;
+margin: 0 1px;
+background-color: lightgray;
+margin-top: 5px;
+height: 500px;
+
+}
+#container-produtos{
+	width:1250px;
+	margin: 5px auto;
+	background: lightgray;
+
+
+}
+#produtos-seção{
+float: left;
+margin-bottom: 10px;
+
+
+}
+#produtos-seção img{
+	padding-left: 10px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+#produtos-seção h1{
+	color: #0AF31A;
+}
+.negrito{
+	font-weight: bold;
+}
+#pagina-contato{
+	width: 920px;
+	margin: 10px auto;
+}
+#pagina-contato h1,p{
+	text-align: center;
+
+}
